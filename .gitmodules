@@ -1,0 +1,12 @@
+[submodule "CFSClientSite"]
+	path = CFSClientSite
+	url = https://github.com/perecdd/CFSClient.git
+[submodule "ShopOwnerSite"]
+	path = ShopOwnerSite
+	url = https://github.com/perecdd/ShopOwnerSite.git
+[submodule "ShopOwnerServiceSide"]
+	path = ShopOwnerServiceSide
+	url = https://github.com/perecdd/ShopOwnerSide.git
+[submodule "CFSService"]
+	path = CFSService
+	url = https://github.com/perecdd/CFS.git
