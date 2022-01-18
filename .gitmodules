@@ -10,3 +10,6 @@
 [submodule "CFSService"]
 	path = CFSService
 	url = https://github.com/perecdd/CFS.git
+[submodule "TelegramBotCFS"]
+	path = TelegramBotCFS
+	url = https://github.com/perecdd/TelegramBotCFS
