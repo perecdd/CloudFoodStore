@@ -14,10 +14,10 @@ The services work each on their own port:
 
 ## How to launch it?
 1. The first step is to create a separate network in docker: "docker network create shared-network", it is needed to connect containers to each other for data exchange.
-2. Further we recommend using IntelliJ IDEA for this. All you have to do is log into each service individually, clone it via github clone in the IDE.
+2. Further we recommend using IntelliJ IDEA for this. All you have to do is clone any module from this repository via github clone in the IDE. You need to open in IDE git -> clone -> paste in URL the repository of modules that you want to connect to the system.
 3. Then go to the Maven compiler and select swagger-spring/Lifecycle and use "package", a "jar" file will be created. 
 4. Then you run the docker-compose file, which will do the rest of the work on packaging the service for you. This way you can start all the services in turn.
-For minimal performance, CFS and ShopOwnerSide are required - this will allow the service to work using json requests. In order for users to work through the site, you also need to launch CFSClient and ShopOwnerSite to these services.
+5. **Important! This procedure (2-4 steps) must be performed for each module that is specified in this repository separately.**
 
 ## FAQ
 1. How does the owner of the marketplace receive income?
@@ -25,6 +25,9 @@ For minimal performance, CFS and ShopOwnerSide are required - this will allow th
 
 2. Why can't I log in from the company after registration?
 - The company has not confirmed the payment, you need to confirm the company by email via ShopOwnerSide.
+
+3. Is it necessary to run all services?
+- No, for minimal performance, CFS and ShopOwnerSide are required - this will allow the service to work using json requests. In order for users to work through the site, you also need to launch CFSClient and ShopOwnerSite to these services.
 
 ## The authors of the project
 There is only one author - the creator of this repository, Evgeny Ivanov.
