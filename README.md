@@ -11,6 +11,7 @@ The services work each on their own port:
 2. CFSClient (A website where users can place orders and search the store.) - 4040, to access the API, you need to add "/api" here.
 3. ShopOwnerSide (The core part of the companies' service.) - 15676, by accessing this port, you get access to the API.
 4. ShopOwnerSite (A website to simplify the work of companies.) - 9191, to access the API, you need to add "/api" here.
+5. TelegramBotCFS (A bot that gives basic information about purchases and orders.) - 1515, by accessing this port, you get access to the API.
 
 ## How to launch it?
 1. The first step is to create a separate network in docker: "docker network create shared-network", it is needed to connect containers to each other for data exchange.
