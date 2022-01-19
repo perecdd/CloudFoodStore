@@ -31,4 +31,4 @@ The services work each on their own port:
 - No, for minimal performance, CFS and ShopOwnerSide are required - this will allow the service to work using json requests. In order for users to work through the site, you also need to launch CFSClient and ShopOwnerSite to these services.
 
 ## The authors of the project
-There is only one author - the creator of this repository, Evgeny Ivanov.
+There is only one author - the creator of this repository, Ivanov Evgeny 26 group.
